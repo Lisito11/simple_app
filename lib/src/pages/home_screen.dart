@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:simple_app/src/widgets/profile_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -14,7 +15,7 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Text('Foto'),
+              ProfileWidget(),
               Text('Nombre'),
               Text('Fecha')
             ],
