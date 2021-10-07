@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:simple_app/src/widgets/my_name_widget.dart';
 import 'package:simple_app/src/widgets/profile_widget.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -16,7 +17,7 @@ class HomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               ProfileWidget(),
-              Text('Nombre'),
+              MyNameWidget(),
               Text('Fecha')
             ],
           ),
