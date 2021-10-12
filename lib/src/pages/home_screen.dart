@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:simple_app/src/widgets/actual_date_widget.dart';
 import 'package:simple_app/src/widgets/my_name_widget.dart';
 import 'package:simple_app/src/widgets/profile_widget.dart';
 
@@ -18,7 +19,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               ProfileWidget(),
               MyNameWidget(),
-              Text('Fecha')
+              ActualDateWidget()
             ],
           ),
         ),
